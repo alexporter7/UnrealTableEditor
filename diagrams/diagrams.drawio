@@ -146,10 +146,10 @@
           <mxGeometry x="1950" y="335" width="120" height="25" as="geometry" />
         </mxCell>
         <mxCell id="LlEfA--5SufR63MY19yz-94" value="Templates" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1950" y="427.5" width="120" height="25" as="geometry" />
+          <mxGeometry x="1950" y="425" width="120" height="25" as="geometry" />
         </mxCell>
         <mxCell id="LlEfA--5SufR63MY19yz-96" value="template1.json" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="2000" y="460" width="120" height="25" as="geometry" />
+          <mxGeometry x="2010" y="485" width="120" height="25" as="geometry" />
         </mxCell>
         <mxCell id="ZPDHwGb2gUlAKi-0C_dS-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
           <mxGeometry x="920" y="475" width="640" height="775" as="geometry" />
@@ -246,6 +246,9 @@
         </mxCell>
         <mxCell id="ZPDHwGb2gUlAKi-0C_dS-37" value="projectManifestPath" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1130" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPDHwGb2gUlAKi-0C_dS-38" value="templates.json" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="455" width="120" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
