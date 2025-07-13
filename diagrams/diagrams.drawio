@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="28.0.4">
   <diagram name="Page-1" id="VzTkRJVZqyoS9abhufmP">
-    <mxGraphModel dx="1833" dy="1618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1991" dy="1701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LlEfA--5SufR63MY19yz-38" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="880" y="-40" width="720" height="1340" as="geometry" />
+          <mxGeometry x="880" y="-40" width="720" height="2120" as="geometry" />
         </mxCell>
         <mxCell id="LlEfA--5SufR63MY19yz-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
           <mxGeometry x="80" y="-40" width="760" height="810" as="geometry" />
@@ -244,11 +244,44 @@
         <mxCell id="ZPDHwGb2gUlAKi-0C_dS-36" value="name" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1130" y="275" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZPDHwGb2gUlAKi-0C_dS-37" value="projectManifestPath" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="ZPDHwGb2gUlAKi-0C_dS-37" value="projectManifest" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1130" y="310" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZPDHwGb2gUlAKi-0C_dS-38" value="templates.json" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="2010" y="455" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPDHwGb2gUlAKi-0C_dS-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1263" width="640" height="775" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPDHwGb2gUlAKi-0C_dS-40" value="Template" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontFamily=Verdana;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="920" y="1263" width="640" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPDHwGb2gUlAKi-0C_dS-41" value="Stores Template Information" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1323" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPDHwGb2gUlAKi-0C_dS-42" value="object" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="1353" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPDHwGb2gUlAKi-0C_dS-43" value="key-value" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="1393" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPDHwGb2gUlAKi-0C_dS-44" value="array" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="1433" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPDHwGb2gUlAKi-0C_dS-45" value="name" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPDHwGb2gUlAKi-0C_dS-46" value="path" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1403" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPDHwGb2gUlAKi-0C_dS-47" value="assetManifest" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="345" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPDHwGb2gUlAKi-0C_dS-48" value="entryManifest" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="380" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPDHwGb2gUlAKi-0C_dS-49" value="templateManifest" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="415" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
