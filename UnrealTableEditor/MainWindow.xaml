@@ -1,12 +1,79 @@
-﻿<Window x:Class="UnrealTableEditor.MainWindow"
+﻿<Window x:Name="UnrealTableEditorWindow" x:Class="UnrealTableEditor.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UnrealTableEditor"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+        Title="Unreal Table Editor" Height="450" Width="800"
+        Closing="OnWindowClose">
+    <Grid x:Name="TableEditorRootGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition x:Name="MenuBar" Height="25"/>
+            <RowDefinition x:Name="Controls" Height="1*"/>
+            <RowDefinition x:Name="DataEditor" Height="5*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Menu Height="25">
+                <MenuItem Header="File">
+                    <MenuItem Header="New Project" Click="NewProject"/>
+                    <MenuItem Header="Open Project" Click="OpenProject"/>
+                    <MenuItem Header="Save" Click="SaveProject"/>
+                    <MenuItem Header="Save As" Click="SaveProjectAs"/>
+                    <Separator/>
+                    <MenuItem Header="Exit" Click="CloseUTEEditor"/>
+                </MenuItem>
+                <MenuItem Header="Edit">
+                    <MenuItem Header="Settings" Click="OpenSettings"/>
+                    <MenuItem Header="Edit Games List" Click="EditGames"/>
+                </MenuItem>
+                <MenuItem Header="Project">
+                    <MenuItem Header="Import Asset" Click="ImportAsset"/>
+                </MenuItem>
+            </Menu>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition x:Name="ProjectControls"/>
+                    <RowDefinition x:Name="DataControls"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="5*"/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="5*"/>
+                        </Grid.ColumnDefinitions>   
+                        <Label Content="Game" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <ComboBox x:Name="GameComboBox" Grid.Column="1" Margin="5, 5, 5, 5" SelectionChanged="OnGameSelected" Loaded="PopulateProjectComboBox"/>
+                        <Label Content="Project" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <ComboBox x:Name="ProjectComboBox" Grid.Column="3" Margin="5, 5, 5, 5" SelectionChanged="OnProjectSelected"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="5*"/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="5*"/>
+                        </Grid.ColumnDefinitions>   
+                        <Button x:Name="AddEntryButton" Content="(+) Entry" Grid.Column="0" Margin="5, 5, 5, 5"/>
+                        <ComboBox x:Name="TemplateComboBox" Grid.Column="1" Margin="5, 5, 5, 5"/>
+                        <Label Content="Path" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <TextBox x:Name="PathTextBox" Grid.Column="3" Margin="5, 5, 5, 5"/>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition x:Name="EntryPicker"/>
+                <ColumnDefinition x:Name="EntryEditor" Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <TreeView x:Name="EntryPickerTree"/>
+        </Grid>
     </Grid>
 </Window>
