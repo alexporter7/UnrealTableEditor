@@ -1,0 +1,1446 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BrakePads",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'VehiclePartRow'",
+        "ObjectPath": "/Script/MotorTown"
+      }
+    },
+    "Rows": {
+      "BrakePad_Small_01": {
+        "Name": {
+          "TableId": "/Game/DataAsset/StringTables/VehiclePartsBrand.VehiclePartsBrand",
+          "Key": "Basic",
+          "SourceString": "Basic",
+          "LocalizedString": "Basic"
+        },
+        "Name2": {
+          "Texts": []
+        },
+        "Desciption": {
+          "CultureInvariantString": null
+        },
+        "Cost": 50,
+        "bIsHidden": false,
+        "MassKg": 0.0,
+        "AirDragMultiplier": 1.0,
+        "TrailerAirDragMultiplier": 1.0,
+        "AeroLift": 0.0,
+        "FrontAeroLift": 0.0,
+        "RearAeroLift": 0.0,
+        "FrontDamageMultiplier": 1.0,
+        "PartType": "EMTVehiclePartType::BrakePad",
+        "GameplayTags": [],
+        "VehicleTypes": [
+          "EMTVehicleType::Kart",
+          "EMTVehicleType::Small",
+          "EMTVehicleType::Pickup",
+          "EMTVehicleType::Bike",
+          "EMTVehicleType::Racecar",
+          "EMTVehicleType::SmallTrailer",
+          "EMTVehicleType::Bus"
+        ],
+        "TruckClasses": [
+          "EMTTruckClass::LightDuty"
+        ],
+        "VehicleRowGameplayTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LevelRequirementToBuy": [],
+        "VehicleKeys": [],
+        "OverrideAllowedVehicleKeys": [],
+        "Slots": [],
+        "BodyMaterialNames": [],
+        "ColorSlots": [],
+        "DecalableMaterialSlotNames": [],
+        "EngineAsset": null,
+        "TransmissionAsset": null,
+        "LSDAsset": null,
+        "FinalDriveRatio": -1.0,
+        "Intake": {
+          "Slope": 0.0,
+          "BaseRPMRatio": 0.5,
+          "IntakeSpeedEfficencyMultiplier": 1.0
+        },
+        "CoolantRadiator": {
+          "CoolingPower": 1.0,
+          "CoolantWaterInLiter": 6.0
+        },
+        "Turbocharger": {
+          "bIsValid": false,
+          "BaseTorqueMultiplier": 1.0,
+          "TorqueMultiplier": 1.0,
+          "TurbineAspectRatio": 1.0,
+          "IntakePressureMultiplier": 1.0,
+          "HeatingMultiplier": 1.0,
+          "FuelConsumptionMultiplier": 1.0,
+          "TurbineWeight": 1.0
+        },
+        "Tire": {
+          "TirePhysicsDataAsset": null,
+          "TirePhysicsDataAsset_BikeRear": null,
+          "bIsDualRearWheel": false
+        },
+        "SuspensionSpring": {
+          "SpringRateMultiplier": 1.0
+        },
+        "SuspensionDamper": {
+          "BoundDampingRateMultiplier": 1.0,
+          "ReboundDampingRateMultiplier": 1.0
+        },
+        "SuspensionRideHeight": {
+          "RideHeightChange": 0.0
+        },
+        "AntiRollBar": {
+          "AntiRollBarRateMultiplier": 1.0
+        },
+        "Aero": {
+          "Mesh": null,
+          "SkelealMesh": null,
+          "bUseCustomSocket": false,
+          "CustomSocketName": "None",
+          "ComponentTags": []
+        },
+        "Headlight": {
+          "LightOnAnim": null
+        },
+        "TrailerHitch": {
+          "Mesh": null,
+          "ConnectionType": "EMTTrailerConnectionType::None"
+        },
+        "CargoBed": {
+          "CargoSpaceLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CargoSpaceSize": {
+            "X": 100.0,
+            "Y": 100.0,
+            "Z": 100.0
+          },
+          "CargoSpaceType": "EMTCargoSpaceType::Flatbed",
+          "bFixCargo": false,
+          "bUnlimitedHeight": false,
+          "DumpVolume": 0.0
+        },
+        "RoofRack": {
+          "CargoSpaceLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CargoSpaceSize": {
+            "X": 100.0,
+            "Y": 100.0,
+            "Z": 100.0
+          }
+        },
+        "Wheel": {
+          "LeftWheelMesh": null,
+          "RightWheelMesh": null,
+          "DRWLeftWheelMesh": null,
+          "DRWRightWheelMesh": null,
+          "RearLeftWheelMesh": null,
+          "RearRightWheelMesh": null
+        },
+        "WheelSpacer": {
+          "Space": 0.0
+        },
+        "BrakePad": {
+          "HeatingMultiplier": 1.0,
+          "CoolingMultiplier": 1.0,
+          "FadeTemperature": 400.0,
+          "WearMultiplier": 1.0
+        },
+        "AngleKit": {
+          "AngleIncreaseInDegree": 0.0
+        },
+        "BrakePower": {
+          "BrakePowerMultiplier": 1.0
+        },
+        "Winch": {
+          "MaxForceKg": 100.0,
+          "MaxLength": 3000.0,
+          "BodyMesh": null,
+          "AxleMesh": null,
+          "HookMesh": null,
+          "StartSound": null,
+          "ReleaseSound": null,
+          "MotorInSound": null,
+          "MotorOutSound": null,
+          "RopeCrackingSound": null,
+          "RopeSnapSound": null
+        },
+        "Taxi": {
+          "TaxiType": "EMTTaxiType::Normal",
+          "TaxiRoofSignClass": null
+        },
+        "ItemInventory": {
+          "NumSlots": 0
+        },
+        "FuelTank": {
+          "FuelLiter": 0.0
+        }
+      },
+      "BrakePad_Small_02": {
+        "Name": {
+          "TableId": "/Game/DataAsset/StringTables/VehiclePartsBrand.VehiclePartsBrand",
+          "Key": "MossanBX1",
+          "SourceString": "Mossan BX1",
+          "LocalizedString": "Mossan BX1"
+        },
+        "Name2": {
+          "Texts": []
+        },
+        "Desciption": {
+          "CultureInvariantString": null
+        },
+        "Cost": 500,
+        "bIsHidden": false,
+        "MassKg": 0.0,
+        "AirDragMultiplier": 1.0,
+        "TrailerAirDragMultiplier": 1.0,
+        "AeroLift": 0.0,
+        "FrontAeroLift": 0.0,
+        "RearAeroLift": 0.0,
+        "FrontDamageMultiplier": 1.0,
+        "PartType": "EMTVehiclePartType::BrakePad",
+        "GameplayTags": [],
+        "VehicleTypes": [
+          "EMTVehicleType::Kart",
+          "EMTVehicleType::Small",
+          "EMTVehicleType::Pickup",
+          "EMTVehicleType::Bike",
+          "EMTVehicleType::Racecar",
+          "EMTVehicleType::SmallTrailer",
+          "EMTVehicleType::Bus"
+        ],
+        "TruckClasses": [
+          "EMTTruckClass::LightDuty"
+        ],
+        "VehicleRowGameplayTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LevelRequirementToBuy": [],
+        "VehicleKeys": [],
+        "OverrideAllowedVehicleKeys": [],
+        "Slots": [],
+        "BodyMaterialNames": [],
+        "ColorSlots": [],
+        "DecalableMaterialSlotNames": [],
+        "EngineAsset": null,
+        "TransmissionAsset": null,
+        "LSDAsset": null,
+        "FinalDriveRatio": -1.0,
+        "Intake": {
+          "Slope": 0.0,
+          "BaseRPMRatio": 0.5,
+          "IntakeSpeedEfficencyMultiplier": 1.0
+        },
+        "CoolantRadiator": {
+          "CoolingPower": 1.0,
+          "CoolantWaterInLiter": 6.0
+        },
+        "Turbocharger": {
+          "bIsValid": false,
+          "BaseTorqueMultiplier": 1.0,
+          "TorqueMultiplier": 1.0,
+          "TurbineAspectRatio": 1.0,
+          "IntakePressureMultiplier": 1.0,
+          "HeatingMultiplier": 1.0,
+          "FuelConsumptionMultiplier": 1.0,
+          "TurbineWeight": 1.0
+        },
+        "Tire": {
+          "TirePhysicsDataAsset": null,
+          "TirePhysicsDataAsset_BikeRear": null,
+          "bIsDualRearWheel": false
+        },
+        "SuspensionSpring": {
+          "SpringRateMultiplier": 1.0
+        },
+        "SuspensionDamper": {
+          "BoundDampingRateMultiplier": 1.0,
+          "ReboundDampingRateMultiplier": 1.0
+        },
+        "SuspensionRideHeight": {
+          "RideHeightChange": 0.0
+        },
+        "AntiRollBar": {
+          "AntiRollBarRateMultiplier": 1.0
+        },
+        "Aero": {
+          "Mesh": null,
+          "SkelealMesh": null,
+          "bUseCustomSocket": false,
+          "CustomSocketName": "None",
+          "ComponentTags": []
+        },
+        "Headlight": {
+          "LightOnAnim": null
+        },
+        "TrailerHitch": {
+          "Mesh": null,
+          "ConnectionType": "EMTTrailerConnectionType::None"
+        },
+        "CargoBed": {
+          "CargoSpaceLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CargoSpaceSize": {
+            "X": 100.0,
+            "Y": 100.0,
+            "Z": 100.0
+          },
+          "CargoSpaceType": "EMTCargoSpaceType::Flatbed",
+          "bFixCargo": false,
+          "bUnlimitedHeight": false,
+          "DumpVolume": 0.0
+        },
+        "RoofRack": {
+          "CargoSpaceLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CargoSpaceSize": {
+            "X": 100.0,
+            "Y": 100.0,
+            "Z": 100.0
+          }
+        },
+        "Wheel": {
+          "LeftWheelMesh": null,
+          "RightWheelMesh": null,
+          "DRWLeftWheelMesh": null,
+          "DRWRightWheelMesh": null,
+          "RearLeftWheelMesh": null,
+          "RearRightWheelMesh": null
+        },
+        "WheelSpacer": {
+          "Space": 0.0
+        },
+        "BrakePad": {
+          "HeatingMultiplier": 0.95,
+          "CoolingMultiplier": 1.1,
+          "FadeTemperature": 450.0,
+          "WearMultiplier": 0.9
+        },
+        "AngleKit": {
+          "AngleIncreaseInDegree": 0.0
+        },
+        "BrakePower": {
+          "BrakePowerMultiplier": 1.0
+        },
+        "Winch": {
+          "MaxForceKg": 100.0,
+          "MaxLength": 3000.0,
+          "BodyMesh": null,
+          "AxleMesh": null,
+          "HookMesh": null,
+          "StartSound": null,
+          "ReleaseSound": null,
+          "MotorInSound": null,
+          "MotorOutSound": null,
+          "RopeCrackingSound": null,
+          "RopeSnapSound": null
+        },
+        "Taxi": {
+          "TaxiType": "EMTTaxiType::Normal",
+          "TaxiRoofSignClass": null
+        },
+        "ItemInventory": {
+          "NumSlots": 0
+        },
+        "FuelTank": {
+          "FuelLiter": 0.0
+        }
+      },
+      "BrakePad_Medium_01": {
+        "Name": {
+          "TableId": "/Game/DataAsset/StringTables/VehiclePartsBrand.VehiclePartsBrand",
+          "Key": "Basic",
+          "SourceString": "Basic",
+          "LocalizedString": "Basic"
+        },
+        "Name2": {
+          "Texts": []
+        },
+        "Desciption": {
+          "CultureInvariantString": null
+        },
+        "Cost": 100,
+        "bIsHidden": false,
+        "MassKg": 0.0,
+        "AirDragMultiplier": 1.0,
+        "TrailerAirDragMultiplier": 1.0,
+        "AeroLift": 0.0,
+        "FrontAeroLift": 0.0,
+        "RearAeroLift": 0.0,
+        "FrontDamageMultiplier": 1.0,
+        "PartType": "EMTVehiclePartType::BrakePad",
+        "GameplayTags": [],
+        "VehicleTypes": [
+          "EMTVehicleType::Bus",
+          "EMTVehicleType::Truck",
+          "EMTVehicleType::Motorhome",
+          "EMTVehicleType::Caravan",
+          "EMTVehicleType::SemiTractor",
+          "EMTVehicleType::SmallTrailer",
+          "EMTVehicleType::SemiTrailer"
+        ],
+        "TruckClasses": [
+          "EMTTruckClass::MediumDuty"
+        ],
+        "VehicleRowGameplayTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LevelRequirementToBuy": [],
+        "VehicleKeys": [],
+        "OverrideAllowedVehicleKeys": [],
+        "Slots": [],
+        "BodyMaterialNames": [],
+        "ColorSlots": [],
+        "DecalableMaterialSlotNames": [],
+        "EngineAsset": null,
+        "TransmissionAsset": null,
+        "LSDAsset": null,
+        "FinalDriveRatio": -1.0,
+        "Intake": {
+          "Slope": 0.0,
+          "BaseRPMRatio": 0.5,
+          "IntakeSpeedEfficencyMultiplier": 1.0
+        },
+        "CoolantRadiator": {
+          "CoolingPower": 1.0,
+          "CoolantWaterInLiter": 6.0
+        },
+        "Turbocharger": {
+          "bIsValid": false,
+          "BaseTorqueMultiplier": 1.0,
+          "TorqueMultiplier": 1.0,
+          "TurbineAspectRatio": 1.0,
+          "IntakePressureMultiplier": 1.0,
+          "HeatingMultiplier": 1.0,
+          "FuelConsumptionMultiplier": 1.0,
+          "TurbineWeight": 1.0
+        },
+        "Tire": {
+          "TirePhysicsDataAsset": null,
+          "TirePhysicsDataAsset_BikeRear": null,
+          "bIsDualRearWheel": false
+        },
+        "SuspensionSpring": {
+          "SpringRateMultiplier": 1.0
+        },
+        "SuspensionDamper": {
+          "BoundDampingRateMultiplier": 1.0,
+          "ReboundDampingRateMultiplier": 1.0
+        },
+        "SuspensionRideHeight": {
+          "RideHeightChange": 0.0
+        },
+        "AntiRollBar": {
+          "AntiRollBarRateMultiplier": 1.0
+        },
+        "Aero": {
+          "Mesh": null,
+          "SkelealMesh": null,
+          "bUseCustomSocket": false,
+          "CustomSocketName": "None",
+          "ComponentTags": []
+        },
+        "Headlight": {
+          "LightOnAnim": null
+        },
+        "TrailerHitch": {
+          "Mesh": null,
+          "ConnectionType": "EMTTrailerConnectionType::None"
+        },
+        "CargoBed": {
+          "CargoSpaceLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CargoSpaceSize": {
+            "X": 100.0,
+            "Y": 100.0,
+            "Z": 100.0
+          },
+          "CargoSpaceType": "EMTCargoSpaceType::Flatbed",
+          "bFixCargo": false,
+          "bUnlimitedHeight": false,
+          "DumpVolume": 0.0
+        },
+        "RoofRack": {
+          "CargoSpaceLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CargoSpaceSize": {
+            "X": 100.0,
+            "Y": 100.0,
+            "Z": 100.0
+          }
+        },
+        "Wheel": {
+          "LeftWheelMesh": null,
+          "RightWheelMesh": null,
+          "DRWLeftWheelMesh": null,
+          "DRWRightWheelMesh": null,
+          "RearLeftWheelMesh": null,
+          "RearRightWheelMesh": null
+        },
+        "WheelSpacer": {
+          "Space": 0.0
+        },
+        "BrakePad": {
+          "HeatingMultiplier": 1.0,
+          "CoolingMultiplier": 1.0,
+          "FadeTemperature": 400.0,
+          "WearMultiplier": 1.0
+        },
+        "AngleKit": {
+          "AngleIncreaseInDegree": 0.0
+        },
+        "BrakePower": {
+          "BrakePowerMultiplier": 1.0
+        },
+        "Winch": {
+          "MaxForceKg": 100.0,
+          "MaxLength": 3000.0,
+          "BodyMesh": null,
+          "AxleMesh": null,
+          "HookMesh": null,
+          "StartSound": null,
+          "ReleaseSound": null,
+          "MotorInSound": null,
+          "MotorOutSound": null,
+          "RopeCrackingSound": null,
+          "RopeSnapSound": null
+        },
+        "Taxi": {
+          "TaxiType": "EMTTaxiType::Normal",
+          "TaxiRoofSignClass": null
+        },
+        "ItemInventory": {
+          "NumSlots": 0
+        },
+        "FuelTank": {
+          "FuelLiter": 0.0
+        }
+      },
+      "BrakePad_Medium_02": {
+        "Name": {
+          "TableId": "/Game/DataAsset/StringTables/VehiclePartsBrand.VehiclePartsBrand",
+          "Key": "MossanBX1",
+          "SourceString": "Mossan BX1",
+          "LocalizedString": "Mossan BX1"
+        },
+        "Name2": {
+          "Texts": []
+        },
+        "Desciption": {
+          "CultureInvariantString": null
+        },
+        "Cost": 1000,
+        "bIsHidden": false,
+        "MassKg": 0.0,
+        "AirDragMultiplier": 1.0,
+        "TrailerAirDragMultiplier": 1.0,
+        "AeroLift": 0.0,
+        "FrontAeroLift": 0.0,
+        "RearAeroLift": 0.0,
+        "FrontDamageMultiplier": 1.0,
+        "PartType": "EMTVehiclePartType::BrakePad",
+        "GameplayTags": [],
+        "VehicleTypes": [
+          "EMTVehicleType::Bus",
+          "EMTVehicleType::Truck",
+          "EMTVehicleType::Motorhome",
+          "EMTVehicleType::Caravan",
+          "EMTVehicleType::SemiTractor",
+          "EMTVehicleType::SmallTrailer",
+          "EMTVehicleType::SemiTrailer"
+        ],
+        "TruckClasses": [
+          "EMTTruckClass::MediumDuty"
+        ],
+        "VehicleRowGameplayTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LevelRequirementToBuy": [],
+        "VehicleKeys": [],
+        "OverrideAllowedVehicleKeys": [],
+        "Slots": [],
+        "BodyMaterialNames": [],
+        "ColorSlots": [],
+        "DecalableMaterialSlotNames": [],
+        "EngineAsset": null,
+        "TransmissionAsset": null,
+        "LSDAsset": null,
+        "FinalDriveRatio": -1.0,
+        "Intake": {
+          "Slope": 0.0,
+          "BaseRPMRatio": 0.5,
+          "IntakeSpeedEfficencyMultiplier": 1.0
+        },
+        "CoolantRadiator": {
+          "CoolingPower": 1.0,
+          "CoolantWaterInLiter": 6.0
+        },
+        "Turbocharger": {
+          "bIsValid": false,
+          "BaseTorqueMultiplier": 1.0,
+          "TorqueMultiplier": 1.0,
+          "TurbineAspectRatio": 1.0,
+          "IntakePressureMultiplier": 1.0,
+          "HeatingMultiplier": 1.0,
+          "FuelConsumptionMultiplier": 1.0,
+          "TurbineWeight": 1.0
+        },
+        "Tire": {
+          "TirePhysicsDataAsset": null,
+          "TirePhysicsDataAsset_BikeRear": null,
+          "bIsDualRearWheel": false
+        },
+        "SuspensionSpring": {
+          "SpringRateMultiplier": 1.0
+        },
+        "SuspensionDamper": {
+          "BoundDampingRateMultiplier": 1.0,
+          "ReboundDampingRateMultiplier": 1.0
+        },
+        "SuspensionRideHeight": {
+          "RideHeightChange": 0.0
+        },
+        "AntiRollBar": {
+          "AntiRollBarRateMultiplier": 1.0
+        },
+        "Aero": {
+          "Mesh": null,
+          "SkelealMesh": null,
+          "bUseCustomSocket": false,
+          "CustomSocketName": "None",
+          "ComponentTags": []
+        },
+        "Headlight": {
+          "LightOnAnim": null
+        },
+        "TrailerHitch": {
+          "Mesh": null,
+          "ConnectionType": "EMTTrailerConnectionType::None"
+        },
+        "CargoBed": {
+          "CargoSpaceLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CargoSpaceSize": {
+            "X": 100.0,
+            "Y": 100.0,
+            "Z": 100.0
+          },
+          "CargoSpaceType": "EMTCargoSpaceType::Flatbed",
+          "bFixCargo": false,
+          "bUnlimitedHeight": false,
+          "DumpVolume": 0.0
+        },
+        "RoofRack": {
+          "CargoSpaceLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CargoSpaceSize": {
+            "X": 100.0,
+            "Y": 100.0,
+            "Z": 100.0
+          }
+        },
+        "Wheel": {
+          "LeftWheelMesh": null,
+          "RightWheelMesh": null,
+          "DRWLeftWheelMesh": null,
+          "DRWRightWheelMesh": null,
+          "RearLeftWheelMesh": null,
+          "RearRightWheelMesh": null
+        },
+        "WheelSpacer": {
+          "Space": 0.0
+        },
+        "BrakePad": {
+          "HeatingMultiplier": 0.95,
+          "CoolingMultiplier": 1.1,
+          "FadeTemperature": 450.0,
+          "WearMultiplier": 0.9
+        },
+        "AngleKit": {
+          "AngleIncreaseInDegree": 0.0
+        },
+        "BrakePower": {
+          "BrakePowerMultiplier": 1.0
+        },
+        "Winch": {
+          "MaxForceKg": 100.0,
+          "MaxLength": 3000.0,
+          "BodyMesh": null,
+          "AxleMesh": null,
+          "HookMesh": null,
+          "StartSound": null,
+          "ReleaseSound": null,
+          "MotorInSound": null,
+          "MotorOutSound": null,
+          "RopeCrackingSound": null,
+          "RopeSnapSound": null
+        },
+        "Taxi": {
+          "TaxiType": "EMTTaxiType::Normal",
+          "TaxiRoofSignClass": null
+        },
+        "ItemInventory": {
+          "NumSlots": 0
+        },
+        "FuelTank": {
+          "FuelLiter": 0.0
+        }
+      },
+      "BrakePad_Heavy_01": {
+        "Name": {
+          "TableId": "/Game/DataAsset/StringTables/VehiclePartsBrand.VehiclePartsBrand",
+          "Key": "Basic",
+          "SourceString": "Basic",
+          "LocalizedString": "Basic"
+        },
+        "Name2": {
+          "Texts": []
+        },
+        "Desciption": {
+          "CultureInvariantString": null
+        },
+        "Cost": 300,
+        "bIsHidden": false,
+        "MassKg": 0.0,
+        "AirDragMultiplier": 1.0,
+        "TrailerAirDragMultiplier": 1.0,
+        "AeroLift": 0.0,
+        "FrontAeroLift": 0.0,
+        "RearAeroLift": 0.0,
+        "FrontDamageMultiplier": 1.0,
+        "PartType": "EMTVehiclePartType::BrakePad",
+        "GameplayTags": [],
+        "VehicleTypes": [
+          "EMTVehicleType::Bus",
+          "EMTVehicleType::Truck",
+          "EMTVehicleType::SemiTractor",
+          "EMTVehicleType::SemiTrailer",
+          "EMTVehicleType::None"
+        ],
+        "TruckClasses": [
+          "EMTTruckClass::HeavyDuty"
+        ],
+        "VehicleRowGameplayTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LevelRequirementToBuy": [],
+        "VehicleKeys": [],
+        "OverrideAllowedVehicleKeys": [],
+        "Slots": [],
+        "BodyMaterialNames": [],
+        "ColorSlots": [],
+        "DecalableMaterialSlotNames": [],
+        "EngineAsset": null,
+        "TransmissionAsset": null,
+        "LSDAsset": null,
+        "FinalDriveRatio": -1.0,
+        "Intake": {
+          "Slope": 0.0,
+          "BaseRPMRatio": 0.5,
+          "IntakeSpeedEfficencyMultiplier": 1.0
+        },
+        "CoolantRadiator": {
+          "CoolingPower": 1.0,
+          "CoolantWaterInLiter": 6.0
+        },
+        "Turbocharger": {
+          "bIsValid": false,
+          "BaseTorqueMultiplier": 1.0,
+          "TorqueMultiplier": 1.0,
+          "TurbineAspectRatio": 1.0,
+          "IntakePressureMultiplier": 1.0,
+          "HeatingMultiplier": 1.0,
+          "FuelConsumptionMultiplier": 1.0,
+          "TurbineWeight": 1.0
+        },
+        "Tire": {
+          "TirePhysicsDataAsset": null,
+          "TirePhysicsDataAsset_BikeRear": null,
+          "bIsDualRearWheel": false
+        },
+        "SuspensionSpring": {
+          "SpringRateMultiplier": 1.0
+        },
+        "SuspensionDamper": {
+          "BoundDampingRateMultiplier": 1.0,
+          "ReboundDampingRateMultiplier": 1.0
+        },
+        "SuspensionRideHeight": {
+          "RideHeightChange": 0.0
+        },
+        "AntiRollBar": {
+          "AntiRollBarRateMultiplier": 1.0
+        },
+        "Aero": {
+          "Mesh": null,
+          "SkelealMesh": null,
+          "bUseCustomSocket": false,
+          "CustomSocketName": "None",
+          "ComponentTags": []
+        },
+        "Headlight": {
+          "LightOnAnim": null
+        },
+        "TrailerHitch": {
+          "Mesh": null,
+          "ConnectionType": "EMTTrailerConnectionType::None"
+        },
+        "CargoBed": {
+          "CargoSpaceLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CargoSpaceSize": {
+            "X": 100.0,
+            "Y": 100.0,
+            "Z": 100.0
+          },
+          "CargoSpaceType": "EMTCargoSpaceType::Flatbed",
+          "bFixCargo": false,
+          "bUnlimitedHeight": false,
+          "DumpVolume": 0.0
+        },
+        "RoofRack": {
+          "CargoSpaceLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CargoSpaceSize": {
+            "X": 100.0,
+            "Y": 100.0,
+            "Z": 100.0
+          }
+        },
+        "Wheel": {
+          "LeftWheelMesh": null,
+          "RightWheelMesh": null,
+          "DRWLeftWheelMesh": null,
+          "DRWRightWheelMesh": null,
+          "RearLeftWheelMesh": null,
+          "RearRightWheelMesh": null
+        },
+        "WheelSpacer": {
+          "Space": 0.0
+        },
+        "BrakePad": {
+          "HeatingMultiplier": 1.0,
+          "CoolingMultiplier": 1.0,
+          "FadeTemperature": 400.0,
+          "WearMultiplier": 1.0
+        },
+        "AngleKit": {
+          "AngleIncreaseInDegree": 0.0
+        },
+        "BrakePower": {
+          "BrakePowerMultiplier": 1.0
+        },
+        "Winch": {
+          "MaxForceKg": 100.0,
+          "MaxLength": 3000.0,
+          "BodyMesh": null,
+          "AxleMesh": null,
+          "HookMesh": null,
+          "StartSound": null,
+          "ReleaseSound": null,
+          "MotorInSound": null,
+          "MotorOutSound": null,
+          "RopeCrackingSound": null,
+          "RopeSnapSound": null
+        },
+        "Taxi": {
+          "TaxiType": "EMTTaxiType::Normal",
+          "TaxiRoofSignClass": null
+        },
+        "ItemInventory": {
+          "NumSlots": 0
+        },
+        "FuelTank": {
+          "FuelLiter": 0.0
+        }
+      },
+      "BrakePad_Heavy_02": {
+        "Name": {
+          "TableId": "/Game/DataAsset/StringTables/VehiclePartsBrand.VehiclePartsBrand",
+          "Key": "MossanBX1",
+          "SourceString": "Mossan BX1",
+          "LocalizedString": "Mossan BX1"
+        },
+        "Name2": {
+          "Texts": []
+        },
+        "Desciption": {
+          "CultureInvariantString": null
+        },
+        "Cost": 3000,
+        "bIsHidden": false,
+        "MassKg": 0.0,
+        "AirDragMultiplier": 1.0,
+        "TrailerAirDragMultiplier": 1.0,
+        "AeroLift": 0.0,
+        "FrontAeroLift": 0.0,
+        "RearAeroLift": 0.0,
+        "FrontDamageMultiplier": 1.0,
+        "PartType": "EMTVehiclePartType::BrakePad",
+        "GameplayTags": [],
+        "VehicleTypes": [
+          "EMTVehicleType::Bus",
+          "EMTVehicleType::Truck",
+          "EMTVehicleType::SemiTractor",
+          "EMTVehicleType::SemiTrailer",
+          "EMTVehicleType::None"
+        ],
+        "TruckClasses": [
+          "EMTTruckClass::HeavyDuty"
+        ],
+        "VehicleRowGameplayTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LevelRequirementToBuy": [],
+        "VehicleKeys": [],
+        "OverrideAllowedVehicleKeys": [],
+        "Slots": [],
+        "BodyMaterialNames": [],
+        "ColorSlots": [],
+        "DecalableMaterialSlotNames": [],
+        "EngineAsset": null,
+        "TransmissionAsset": null,
+        "LSDAsset": null,
+        "FinalDriveRatio": -1.0,
+        "Intake": {
+          "Slope": 0.0,
+          "BaseRPMRatio": 0.5,
+          "IntakeSpeedEfficencyMultiplier": 1.0
+        },
+        "CoolantRadiator": {
+          "CoolingPower": 1.0,
+          "CoolantWaterInLiter": 6.0
+        },
+        "Turbocharger": {
+          "bIsValid": false,
+          "BaseTorqueMultiplier": 1.0,
+          "TorqueMultiplier": 1.0,
+          "TurbineAspectRatio": 1.0,
+          "IntakePressureMultiplier": 1.0,
+          "HeatingMultiplier": 1.0,
+          "FuelConsumptionMultiplier": 1.0,
+          "TurbineWeight": 1.0
+        },
+        "Tire": {
+          "TirePhysicsDataAsset": null,
+          "TirePhysicsDataAsset_BikeRear": null,
+          "bIsDualRearWheel": false
+        },
+        "SuspensionSpring": {
+          "SpringRateMultiplier": 1.0
+        },
+        "SuspensionDamper": {
+          "BoundDampingRateMultiplier": 1.0,
+          "ReboundDampingRateMultiplier": 1.0
+        },
+        "SuspensionRideHeight": {
+          "RideHeightChange": 0.0
+        },
+        "AntiRollBar": {
+          "AntiRollBarRateMultiplier": 1.0
+        },
+        "Aero": {
+          "Mesh": null,
+          "SkelealMesh": null,
+          "bUseCustomSocket": false,
+          "CustomSocketName": "None",
+          "ComponentTags": []
+        },
+        "Headlight": {
+          "LightOnAnim": null
+        },
+        "TrailerHitch": {
+          "Mesh": null,
+          "ConnectionType": "EMTTrailerConnectionType::None"
+        },
+        "CargoBed": {
+          "CargoSpaceLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CargoSpaceSize": {
+            "X": 100.0,
+            "Y": 100.0,
+            "Z": 100.0
+          },
+          "CargoSpaceType": "EMTCargoSpaceType::Flatbed",
+          "bFixCargo": false,
+          "bUnlimitedHeight": false,
+          "DumpVolume": 0.0
+        },
+        "RoofRack": {
+          "CargoSpaceLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CargoSpaceSize": {
+            "X": 100.0,
+            "Y": 100.0,
+            "Z": 100.0
+          }
+        },
+        "Wheel": {
+          "LeftWheelMesh": null,
+          "RightWheelMesh": null,
+          "DRWLeftWheelMesh": null,
+          "DRWRightWheelMesh": null,
+          "RearLeftWheelMesh": null,
+          "RearRightWheelMesh": null
+        },
+        "WheelSpacer": {
+          "Space": 0.0
+        },
+        "BrakePad": {
+          "HeatingMultiplier": 0.95,
+          "CoolingMultiplier": 1.1,
+          "FadeTemperature": 450.0,
+          "WearMultiplier": 0.9
+        },
+        "AngleKit": {
+          "AngleIncreaseInDegree": 0.0
+        },
+        "BrakePower": {
+          "BrakePowerMultiplier": 1.0
+        },
+        "Winch": {
+          "MaxForceKg": 100.0,
+          "MaxLength": 3000.0,
+          "BodyMesh": null,
+          "AxleMesh": null,
+          "HookMesh": null,
+          "StartSound": null,
+          "ReleaseSound": null,
+          "MotorInSound": null,
+          "MotorOutSound": null,
+          "RopeCrackingSound": null,
+          "RopeSnapSound": null
+        },
+        "Taxi": {
+          "TaxiType": "EMTTaxiType::Normal",
+          "TaxiRoofSignClass": null
+        },
+        "ItemInventory": {
+          "NumSlots": 0
+        },
+        "FuelTank": {
+          "FuelLiter": 0.0
+        }
+      },
+      "BrakePad_Heavy_03": {
+        "Name": {
+          "TableId": "/Game/DataAsset/StringTables/VehiclePartsBrand.VehiclePartsBrand",
+          "Key": "MossanDX1",
+          "SourceString": "Mossan DX1",
+          "LocalizedString": "Mossan DX1"
+        },
+        "Name2": {
+          "Texts": []
+        },
+        "Desciption": {
+          "CultureInvariantString": null
+        },
+        "Cost": 1500,
+        "bIsHidden": false,
+        "MassKg": 0.0,
+        "AirDragMultiplier": 1.0,
+        "TrailerAirDragMultiplier": 1.0,
+        "AeroLift": 0.0,
+        "FrontAeroLift": 0.0,
+        "RearAeroLift": 0.0,
+        "FrontDamageMultiplier": 1.0,
+        "PartType": "EMTVehiclePartType::BrakePad",
+        "GameplayTags": [],
+        "VehicleTypes": [
+          "EMTVehicleType::Bus",
+          "EMTVehicleType::Truck",
+          "EMTVehicleType::SemiTractor",
+          "EMTVehicleType::SemiTrailer",
+          "EMTVehicleType::None"
+        ],
+        "TruckClasses": [
+          "EMTTruckClass::HeavyDuty"
+        ],
+        "VehicleRowGameplayTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LevelRequirementToBuy": [],
+        "VehicleKeys": [],
+        "OverrideAllowedVehicleKeys": [],
+        "Slots": [],
+        "BodyMaterialNames": [],
+        "ColorSlots": [],
+        "DecalableMaterialSlotNames": [],
+        "EngineAsset": null,
+        "TransmissionAsset": null,
+        "LSDAsset": null,
+        "FinalDriveRatio": -1.0,
+        "Intake": {
+          "Slope": 0.0,
+          "BaseRPMRatio": 0.5,
+          "IntakeSpeedEfficencyMultiplier": 1.0
+        },
+        "CoolantRadiator": {
+          "CoolingPower": 1.0,
+          "CoolantWaterInLiter": 6.0
+        },
+        "Turbocharger": {
+          "bIsValid": false,
+          "BaseTorqueMultiplier": 1.0,
+          "TorqueMultiplier": 1.0,
+          "TurbineAspectRatio": 1.0,
+          "IntakePressureMultiplier": 1.0,
+          "HeatingMultiplier": 1.0,
+          "FuelConsumptionMultiplier": 1.0,
+          "TurbineWeight": 1.0
+        },
+        "Tire": {
+          "TirePhysicsDataAsset": null,
+          "TirePhysicsDataAsset_BikeRear": null,
+          "bIsDualRearWheel": false
+        },
+        "SuspensionSpring": {
+          "SpringRateMultiplier": 1.0
+        },
+        "SuspensionDamper": {
+          "BoundDampingRateMultiplier": 1.0,
+          "ReboundDampingRateMultiplier": 1.0
+        },
+        "SuspensionRideHeight": {
+          "RideHeightChange": 0.0
+        },
+        "AntiRollBar": {
+          "AntiRollBarRateMultiplier": 1.0
+        },
+        "Aero": {
+          "Mesh": null,
+          "SkelealMesh": null,
+          "bUseCustomSocket": false,
+          "CustomSocketName": "None",
+          "ComponentTags": []
+        },
+        "Headlight": {
+          "LightOnAnim": null
+        },
+        "TrailerHitch": {
+          "Mesh": null,
+          "ConnectionType": "EMTTrailerConnectionType::None"
+        },
+        "CargoBed": {
+          "CargoSpaceLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CargoSpaceSize": {
+            "X": 100.0,
+            "Y": 100.0,
+            "Z": 100.0
+          },
+          "CargoSpaceType": "EMTCargoSpaceType::Flatbed",
+          "bFixCargo": false,
+          "bUnlimitedHeight": false,
+          "DumpVolume": 0.0
+        },
+        "RoofRack": {
+          "CargoSpaceLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CargoSpaceSize": {
+            "X": 100.0,
+            "Y": 100.0,
+            "Z": 100.0
+          }
+        },
+        "Wheel": {
+          "LeftWheelMesh": null,
+          "RightWheelMesh": null,
+          "DRWLeftWheelMesh": null,
+          "DRWRightWheelMesh": null,
+          "RearLeftWheelMesh": null,
+          "RearRightWheelMesh": null
+        },
+        "WheelSpacer": {
+          "Space": 0.0
+        },
+        "BrakePad": {
+          "HeatingMultiplier": 1.0,
+          "CoolingMultiplier": 1.1,
+          "FadeTemperature": 400.0,
+          "WearMultiplier": 0.7
+        },
+        "AngleKit": {
+          "AngleIncreaseInDegree": 0.0
+        },
+        "BrakePower": {
+          "BrakePowerMultiplier": 1.0
+        },
+        "Winch": {
+          "MaxForceKg": 100.0,
+          "MaxLength": 3000.0,
+          "BodyMesh": null,
+          "AxleMesh": null,
+          "HookMesh": null,
+          "StartSound": null,
+          "ReleaseSound": null,
+          "MotorInSound": null,
+          "MotorOutSound": null,
+          "RopeCrackingSound": null,
+          "RopeSnapSound": null
+        },
+        "Taxi": {
+          "TaxiType": "EMTTaxiType::Normal",
+          "TaxiRoofSignClass": null
+        },
+        "ItemInventory": {
+          "NumSlots": 0
+        },
+        "FuelTank": {
+          "FuelLiter": 0.0
+        }
+      },
+      "BrakePad_HeavyMachine_50T": {
+        "Name": {
+          "TableId": "/Game/DataAsset/StringTables/VehiclePartsBrand.VehiclePartsBrand",
+          "Key": "Basic",
+          "SourceString": "Basic",
+          "LocalizedString": "Basic"
+        },
+        "Name2": {
+          "Texts": []
+        },
+        "Desciption": {
+          "CultureInvariantString": null
+        },
+        "Cost": 20000,
+        "bIsHidden": false,
+        "MassKg": 0.0,
+        "AirDragMultiplier": 1.0,
+        "TrailerAirDragMultiplier": 1.0,
+        "AeroLift": 0.0,
+        "FrontAeroLift": 0.0,
+        "RearAeroLift": 0.0,
+        "FrontDamageMultiplier": 1.0,
+        "PartType": "EMTVehiclePartType::BrakePad",
+        "GameplayTags": [],
+        "VehicleTypes": [
+          "EMTVehicleType::HeavyMachinery"
+        ],
+        "TruckClasses": [
+          "EMTTruckClass::HeavyDuty"
+        ],
+        "VehicleRowGameplayTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LevelRequirementToBuy": [],
+        "VehicleKeys": [
+          "Terra"
+        ],
+        "OverrideAllowedVehicleKeys": [],
+        "Slots": [],
+        "BodyMaterialNames": [],
+        "ColorSlots": [],
+        "DecalableMaterialSlotNames": [],
+        "EngineAsset": null,
+        "TransmissionAsset": null,
+        "LSDAsset": null,
+        "FinalDriveRatio": -1.0,
+        "Intake": {
+          "Slope": 0.0,
+          "BaseRPMRatio": 0.5,
+          "IntakeSpeedEfficencyMultiplier": 1.0
+        },
+        "CoolantRadiator": {
+          "CoolingPower": 1.0,
+          "CoolantWaterInLiter": 6.0
+        },
+        "Turbocharger": {
+          "bIsValid": false,
+          "BaseTorqueMultiplier": 1.0,
+          "TorqueMultiplier": 1.0,
+          "TurbineAspectRatio": 1.0,
+          "IntakePressureMultiplier": 1.0,
+          "HeatingMultiplier": 1.0,
+          "FuelConsumptionMultiplier": 1.0,
+          "TurbineWeight": 1.0
+        },
+        "Tire": {
+          "TirePhysicsDataAsset": null,
+          "TirePhysicsDataAsset_BikeRear": null,
+          "bIsDualRearWheel": false
+        },
+        "SuspensionSpring": {
+          "SpringRateMultiplier": 1.0
+        },
+        "SuspensionDamper": {
+          "BoundDampingRateMultiplier": 1.0,
+          "ReboundDampingRateMultiplier": 1.0
+        },
+        "SuspensionRideHeight": {
+          "RideHeightChange": 0.0
+        },
+        "AntiRollBar": {
+          "AntiRollBarRateMultiplier": 1.0
+        },
+        "Aero": {
+          "Mesh": null,
+          "SkelealMesh": null,
+          "bUseCustomSocket": false,
+          "CustomSocketName": "None",
+          "ComponentTags": []
+        },
+        "Headlight": {
+          "LightOnAnim": null
+        },
+        "TrailerHitch": {
+          "Mesh": null,
+          "ConnectionType": "EMTTrailerConnectionType::None"
+        },
+        "CargoBed": {
+          "CargoSpaceLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CargoSpaceSize": {
+            "X": 100.0,
+            "Y": 100.0,
+            "Z": 100.0
+          },
+          "CargoSpaceType": "EMTCargoSpaceType::Flatbed",
+          "bFixCargo": false,
+          "bUnlimitedHeight": false,
+          "DumpVolume": 0.0
+        },
+        "RoofRack": {
+          "CargoSpaceLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CargoSpaceSize": {
+            "X": 100.0,
+            "Y": 100.0,
+            "Z": 100.0
+          }
+        },
+        "Wheel": {
+          "LeftWheelMesh": null,
+          "RightWheelMesh": null,
+          "DRWLeftWheelMesh": null,
+          "DRWRightWheelMesh": null,
+          "RearLeftWheelMesh": null,
+          "RearRightWheelMesh": null
+        },
+        "WheelSpacer": {
+          "Space": 0.0
+        },
+        "BrakePad": {
+          "HeatingMultiplier": 1.0,
+          "CoolingMultiplier": 2.0,
+          "FadeTemperature": 400.0,
+          "WearMultiplier": 1.0
+        },
+        "AngleKit": {
+          "AngleIncreaseInDegree": 0.0
+        },
+        "BrakePower": {
+          "BrakePowerMultiplier": 1.0
+        },
+        "Winch": {
+          "MaxForceKg": 100.0,
+          "MaxLength": 3000.0,
+          "BodyMesh": null,
+          "AxleMesh": null,
+          "HookMesh": null,
+          "StartSound": null,
+          "ReleaseSound": null,
+          "MotorInSound": null,
+          "MotorOutSound": null,
+          "RopeCrackingSound": null,
+          "RopeSnapSound": null
+        },
+        "Taxi": {
+          "TaxiType": "EMTTaxiType::Normal",
+          "TaxiRoofSignClass": null
+        },
+        "ItemInventory": {
+          "NumSlots": 0
+        },
+        "FuelTank": {
+          "FuelLiter": 0.0
+        }
+      }
+    }
+  }
+]
