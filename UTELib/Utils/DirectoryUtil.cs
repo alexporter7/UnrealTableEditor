@@ -13,8 +13,8 @@ public static class DirectoryUtil {
         return $"{Directory.GetCurrentDirectory()}\\Data\\Projects\\manifest.json";
     }
 
-    public static string GetProjectPath(string gameTitle) {
-        return $"{Directory.GetCurrentDirectory()}\\Data\\Projects\\{gameTitle}";
+    public static string GetProjectPath(string gameTitle, string projectName) {
+        return $"{Directory.GetCurrentDirectory()}\\Data\\Projects\\{gameTitle}\\{projectName}";
     }
 
 }

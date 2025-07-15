@@ -47,7 +47,7 @@
                             <ColumnDefinition Width="5*"/>
                         </Grid.ColumnDefinitions>   
                         <Label Content="Game" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                        <ComboBox x:Name="GameComboBox" Grid.Column="1" Margin="5, 5, 5, 5" SelectionChanged="OnGameSelected" Loaded="PopulateProjectComboBox"/>
+                        <ComboBox x:Name="GameComboBox" Grid.Column="1" Margin="5, 5, 5, 5" SelectionChanged="OnGameSelected" Loaded="PopulateGameComboBox"/>
                         <Label Content="Project" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                         <ComboBox x:Name="ProjectComboBox" Grid.Column="3" Margin="5, 5, 5, 5" SelectionChanged="OnProjectSelected"/>
                     </Grid>

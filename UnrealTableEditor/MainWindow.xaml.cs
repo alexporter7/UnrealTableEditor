@@ -45,7 +45,7 @@ public partial class MainWindow : Window {
 
     private void CloseUTEEditor(object sender, RoutedEventArgs eventArgs) => Instance.Close();
     
-    private void PopulateProjectComboBox(object sender, RoutedEventArgs e) {
+    private void PopulateGameComboBox(object sender, RoutedEventArgs e) {
         foreach (var (key, value) in AppManager.UTEConfig.Games)
             GameComboBox.Items.Add(key);
     }
@@ -94,16 +94,16 @@ public partial class MainWindow : Window {
     }
 
     private void OnGameSelected(object sender, RoutedEventArgs eventArgs) {
-        GameEntry selectedGame = AppManager.UTEConfig.Games[GameComboBox.Text];
-        if (!AppManager.UTEProjectManifest.GameKeys.ContainsKey(selectedGame.Key)) {
+        var selectedGame = GameComboBox.SelectionBoxItem.ToString();
+        if (!AppManager.UTEProjectManifest.GameKeys.ContainsKey(selectedGame)) {
             MessageBox.Show("No projects exist for that game", "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
             NewProject(sender, eventArgs);
             return;
         }
 
         ProjectComboBox.IsEnabled = true;
-        foreach (var (key, value) in AppManager.UTEProjectManifest.GameKeys)
-            ProjectComboBox.Items.Add(key);
+        foreach (var project in AppManager.UTEProjectManifest.GameKeys[selectedGame].Projects)
+            ProjectComboBox.Items.Add(project.Name);
     }
 
     private void OnProjectSelected(object sender, SelectionChangedEventArgs e) {

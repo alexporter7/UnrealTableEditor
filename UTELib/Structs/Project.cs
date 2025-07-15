@@ -10,12 +10,19 @@ public class Project {
 
 public class ProjectInfo {
 
-    public string   ProjectName { get; set; } = "N/A";
-    public string   Game        { get; set; } = "N/A";
-    public string   Version     { get; set; } = "N/A";
-    public string   Author      { get; set; } = "N/A";
-    public string   Website     { get; set; } = "N/A";
-    public string[] Files       { get; set; } = [];
+    public ProjectInfo(string projectName = "N/A", string game = "N/A", string version = "N/A", string author = "N/A", string website = "N/A") {
+        ProjectName = projectName;
+        Game        = game;
+        Version     = version;
+        Author      = author;
+        Website     = website;
+    }
+
+    public string   ProjectName { get; set; }
+    public string   Game        { get; set; }
+    public string   Version     { get; set; }
+    public string   Author      { get; set; }
+    public string   Website     { get; set; }
 
 }
 
