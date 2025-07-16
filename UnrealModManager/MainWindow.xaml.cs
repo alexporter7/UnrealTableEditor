@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using UMMLib.Application;
 
 namespace UnrealModManager;
 
@@ -16,8 +17,22 @@ namespace UnrealModManager;
 /// </summary>
 public partial class MainWindow : Window {
 
+    public UMMDataManager   DataManager;
+    public GameEditorWindow GameEditor;
+
     public MainWindow() {
+        DataManager = new UMMDataManager();
         InitializeComponent();
+        InitializeApplicationWindows();
+    }
+
+    private void InitializeApplicationWindows() {
+        GameEditor = new GameEditorWindow(DataManager);
+    }
+
+    //TODO: fix this, make it so we can only open one
+    private void OpenGameEditor(object sender, RoutedEventArgs eventArgs) {
+        GameEditor.Show();
     }
 
 }
