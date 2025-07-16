@@ -499,7 +499,7 @@
         <mxCell id="6EVq4NqDMnWMpDFVMhJd-74" value="Enable/Disable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3095" y="820" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6EVq4NqDMnWMpDFVMhJd-75" value="Edit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-75" value="Delete" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3095" y="870" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6EVq4NqDMnWMpDFVMhJd-76" value="Disabled" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
