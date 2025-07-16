@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnrealTableEditor", "Unreal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTELib", "UTELib\UTELib.csproj", "{15C30F6E-BDB7-4BFF-982D-3A8ECC9FDC3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnrealModManager", "UnrealModManager\UnrealModManager.csproj", "{2F0DAE45-A965-4427-B97E-823B29CF52F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMMLib", "UMMLib\UMMLib.csproj", "{8DA05DF5-5F64-42EF-ADE4-75FFA9B062E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{15C30F6E-BDB7-4BFF-982D-3A8ECC9FDC3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15C30F6E-BDB7-4BFF-982D-3A8ECC9FDC3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15C30F6E-BDB7-4BFF-982D-3A8ECC9FDC3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F0DAE45-A965-4427-B97E-823B29CF52F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0DAE45-A965-4427-B97E-823B29CF52F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0DAE45-A965-4427-B97E-823B29CF52F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0DAE45-A965-4427-B97E-823B29CF52F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DA05DF5-5F64-42EF-ADE4-75FFA9B062E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA05DF5-5F64-42EF-ADE4-75FFA9B062E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA05DF5-5F64-42EF-ADE4-75FFA9B062E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA05DF5-5F64-42EF-ADE4-75FFA9B062E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
