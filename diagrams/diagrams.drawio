@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="28.0.4">
   <diagram name="Page-1" id="VzTkRJVZqyoS9abhufmP">
-    <mxGraphModel dx="2528" dy="1984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2038" dy="1726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -314,7 +314,7 @@
           <mxGeometry x="2550" y="-240" width="2280" height="160" as="geometry" />
         </mxCell>
         <mxCell id="6EVq4NqDMnWMpDFVMhJd-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
-          <mxGeometry x="2550" y="-40" width="770" height="1480" as="geometry" />
+          <mxGeometry x="2550" y="-40" width="770" height="1640" as="geometry" />
         </mxCell>
         <mxCell id="6EVq4NqDMnWMpDFVMhJd-4" value="UI Sketch" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=33;fontFamily=Verdana;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="2550" y="-40" width="760" height="60" as="geometry" />
@@ -513,6 +513,78 @@
         </mxCell>
         <mxCell id="6EVq4NqDMnWMpDFVMhJd-79" value="&amp;lt;&amp;lt;&amp;lt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2845" y="870" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-80" value="Game Editor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="2715" y="1135" width="485" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-81" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;MainWindow&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=33;fontFamily=Verdana;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="2640" y="52.5" width="590" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-82" value="Game Editor" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=33;fontFamily=Verdana;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="2640" y="1055" width="590" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-83" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2715" y="1163" width="480" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-84" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2715" y="1163" width="240" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-85" value="List Box" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="2730" y="1175" width="210" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-86" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2955" y="1163" width="245" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-87" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3030" y="1200" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-88" value="Title" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="1200" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-89" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3030" y="1230" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-90" value="Version" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="1230" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-91" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3030" y="1260" width="125" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-92" value="Path" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="1260" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-93" value="..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="3160" y="1260" width="30" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-94" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3030" y="1170" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-95" value="Key" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="1170" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-96" value="Save" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="2965" y="1325" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-97" value="Cancel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="3120" y="1325" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-98" value="Delete" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="2965" y="1385" width="225" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-99" value="Create as New Game" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="2965" y="1355" width="225" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-100" value="Create a New Game" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2560" y="1135" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-101" value="&lt;div&gt;Create New Entry in List Box&lt;/div&gt;&lt;div&gt;Use random key (but store it)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2560" y="1215" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-102" value="Once they update the Title, save as a new game to create new key" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2560" y="1300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6EVq4NqDMnWMpDFVMhJd-103" value="Delete Key from temporary game record" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2560" y="1380" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
