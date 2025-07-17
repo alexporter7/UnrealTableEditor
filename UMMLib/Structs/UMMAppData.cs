@@ -21,7 +21,7 @@ public class UMMProfile {
 
 }
 
-public class GameInfo {
+public class GameInfo(string title = "New Game", string version = "N/A", string path = "") {
 
     public string Title   { get; set; }
     public string Version { get; set; }

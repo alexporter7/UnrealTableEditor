@@ -8,13 +8,13 @@ namespace UMMLib.Application;
 
 public class UMMDataManager {
 
-    public UMMConfig      Config;
-    public UMMAppData DataManager;
+    public UMMConfig  Config;
+    public UMMAppData AppData;
 
     public UMMDataManager() {
         UMMInit.ValidateJsonFiles();
         Config      = JsonUtil.LoadJson<UMMConfig>(PathUtil.ConfigPath);
-        DataManager = JsonUtil.LoadJson<UMMAppData>(PathUtil.UMMDataPath);
+        AppData = JsonUtil.LoadJson<UMMAppData>(PathUtil.UMMDataPath);
     }
 
 }
@@ -22,12 +22,11 @@ public class UMMDataManager {
 internal static class UMMInit {
 
     public static void ValidateJsonFiles() {
-        if(!File.Exists(PathUtil.ConfigPath))
+        if (!File.Exists(PathUtil.ConfigPath))
             JsonUtil.SaveJson(PathUtil.ConfigPath, new UMMConfig());
-        
-        if(!File.Exists(PathUtil.UMMDataPath))
+
+        if (!File.Exists(PathUtil.UMMDataPath))
             JsonUtil.SaveJson(PathUtil.UMMDataPath, new UMMAppData());
-        
     }
 
 }
